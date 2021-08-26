@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogActions,
   DialogContent,
-} from "../assets/stylesGrey";
+} from "../assets/stylesBlack";
 
 
 import codSnip from "../assets/codeSnip.PNG";

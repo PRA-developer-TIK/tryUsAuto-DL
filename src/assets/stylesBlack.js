@@ -330,7 +330,7 @@ export const useStyles = makeStyles((theme) => ({
       background:"#5FCB8D",
       border:"1px solid black",
       fontWeight:"bold",
-      color:"#FFF"
+      color:"#000"
 
     },
     codeSnip:{
