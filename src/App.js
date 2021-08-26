@@ -5,7 +5,7 @@ import jsondata from "./assets/KerasLayersJson";
 import _ from "lodash";
 import {validate_layers} from "./Validation/Validation";
 
-import { useStyles } from "./assets/stylesBlack";
+import { useStyles } from "./assets/stylesWhite";
 
 
 

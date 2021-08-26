@@ -3,7 +3,7 @@ import { Grid, TextField, FormControl, Select } from "@material-ui/core";
 import { useTheme } from "@material-ui/core/styles";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
-import { useStyles } from "../assets/stylesBlack";
+import { useStyles } from "../assets/stylesWhite";
 
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import FileCopySharpIcon from "@material-ui/icons/FileCopySharp";
@@ -42,7 +42,7 @@ const LayerTab = ({
         <Grid container>
           <Grid item lg={3} md={3} sm={4} xs={4} className={classes.grid1}>
             <div key="source" className={classes.column1}>
-              <span style={{marginLeft:"50%",fontSize:"120%",color:"#FFF"}}>Layers</span>
+              <span style={{marginLeft:"50%",fontSize:"120%",color:"#000"}}>Layers</span>
 
               <Droppable droppableId="source">
                 {(provided, snapshot) => {
@@ -101,7 +101,7 @@ const LayerTab = ({
 
           <Grid item lg={5} md={5} sm={4} xs={4} className={classes.grid2}>
             <div key="target" className={classes.column2}>
-              <span style={{marginLeft:"25%",fontSize:"120%",color:"#FFF"}} >Model</span>
+              <span style={{marginLeft:"25%",fontSize:"120%",color:"#000"}} >Model</span>
 
               <Droppable droppableId="target">
                 {(provided, snapshot) => {
@@ -148,7 +148,7 @@ const LayerTab = ({
                                       
                                       onClick={() => handleCloneLayer(el)}
                                        
-                                      style={{color:  `${selected_layer===index ? "#FFF":"#000"}`}}
+                                      style={{color:  `${selected_layer===index ? "#000":"#FFF"}`}}
                                       
                                       
                                       
@@ -195,7 +195,7 @@ const LayerTab = ({
 
           <Grid item lg={4} md={4} sm={4} xs={4} className={classes.grid3}>
             <div className={classes.column3}>
-              <span style={{fontSize:"120%",color:"#FFF"}}>
+              <span style={{fontSize:"120%",color:"#000"}}>
                 {Object.keys(selected_layer_type).length !== 0
                   ? "name" in components[selected_layer]
                     ? components[selected_layer].name
