@@ -4,9 +4,9 @@ import LayerTab from './components/LayerTab';
 import jsondata from "./assets/KerasLayersJson";
 import _ from "lodash";
 import {validate_layers} from "./Validation/Validation";
-// import { useStyles } from "./assets/stylesWhite";
-// import { useStyles } from "./assets/stylesGrey";
-import { useStyles } from "./assets/stylesBlack";
+
+import { useStyles } from "./assets/stylesGrey";
+
 
 
 function App() {

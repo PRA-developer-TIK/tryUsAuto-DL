@@ -2,9 +2,9 @@ import { Fragment ,useState} from "react";
 import { Grid, TextField, FormControl, Select } from "@material-ui/core";
 import { useTheme } from "@material-ui/core/styles";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-// import { useStyles } from "../assets/stylesWhite";
-// import { useStyles } from "../assets/stylesGrey";
-import { useStyles } from "../assets/stylesBlack";
+
+import { useStyles } from "../assets/stylesGrey";
+
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import FileCopySharpIcon from "@material-ui/icons/FileCopySharp";
 import Button from "@material-ui/core/Button";

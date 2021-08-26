@@ -2,24 +2,14 @@ import { useCallback } from "react";
 import {
     Dialog,Button
   } from "@material-ui/core";
-// import {
-//   useStyles,
-//   DialogTitle,
-//   DialogActions,
-//   DialogContent,
-// } from "../assets/stylesWhite";
-// import {
-//   useStyles,
-//   DialogTitle,
-//   DialogActions,
-//   DialogContent,
-// } from "../assets/stylesGrey";
+
 import {
   useStyles,
   DialogTitle,
   DialogActions,
   DialogContent,
-} from "../assets/stylesBlack";
+} from "../assets/stylesGrey";
+
 
 import codSnip from "../assets/codeSnip.PNG";
 
