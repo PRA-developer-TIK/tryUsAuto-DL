@@ -80,7 +80,7 @@ const LayerTab = ({
 
                                   }
                                   {suggestDesc===index &&
-                                    <div style={{fontSize:"60%",marginTop:"1px",fontWeight:"100",color:"#a2a4a8",textAlign:"left"}}>
+                                    <div style={{fontSize:"60%",marginTop:"1px",fontWeight:"bold",color:"#000",textAlign:"center"}}>
                                       Tip : Valid layer to be added.
                                     </div>
                                   }
@@ -164,6 +164,8 @@ const LayerTab = ({
                                           setSelectedWarnLayer(index);
                                           setTimeout(()=>setSelectedWarnLayer(""),3000)
                                           }}
+
+                                          
                                           
                                         className={classes.errBtn}
                                       >
@@ -172,7 +174,7 @@ const LayerTab = ({
                                     }
                                     {
                                       selectedWarnLayer===index &&
-                                  <div style={{fontSize:"60%",marginTop:"1px",fontWeight:"bold",color:"#D00000",textAlign:"left"}}>
+                                  <div style={{fontSize:"60%",marginTop:"1px",marginLeft:"4%",fontWeight:"bold",color:"#D00000",}}>
                                     Warning : highlited layer is wrongly placed 
                                   </div>
                                   }
@@ -349,7 +351,7 @@ const LayerTab = ({
             className={classes.tryUsBtn}
               
             >
-              For more....
+              Generate Code
             </Button>
             
 

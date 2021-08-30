@@ -29,18 +29,22 @@ const  TryUsDialog = ({openModal,closeModal})=>{
 
 
     return(
-        <div style={{overflowX:"auto",overflowY:"auto"}}>
+        <div >
         <Dialog
           open={openModal}
           onClose={handleCloseModal}
+          style={{height:"80%",marginTop:"5%",width:"100%",textAlign:"center",fontWeight:"bold"}}
           
         >
-          <DialogTitle id="error-dialog-title">
-            Partial Code is generated!!!
+          <DialogTitle id="error-dialog-title"  >
+             Code  generated!!!
           </DialogTitle>
-          <DialogContent dividers>
+          <DialogContent dividers >
             <div  className={classes.codeSnip} >
-              <img src={codSnip} alt="code"/>
+              <div>
+                <img src={codSnip} alt="code"/>
+              </div>
+              
             </div>
             
           </DialogContent>

@@ -334,7 +334,9 @@ export const useStyles = makeStyles((theme) => ({
     },
     codeSnip:{
       width:"100%",
+      
       overflowX:"hidden",
-      filter:"blur(5px)"
+      filter:"blur(4px)",
+      overflowY:"auto",
     }
 }));
