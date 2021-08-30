@@ -50,7 +50,7 @@ const  TryUsDialog = ({openModal,closeModal})=>{
           </DialogContent>
           <DialogActions style={{justifyContent: "center" }}>
             <Button
-            style={{background:"#252934",color:"#FFF"}}
+            style={{background:"#252934",color:"#FFFFFF"}}
               variant="contained"
 
               onClick={handleCloseModal}
