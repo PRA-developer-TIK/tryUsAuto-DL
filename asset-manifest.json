@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tryUsAuto-DL/static/css/main.28f34db8.chunk.css",
+    "main.js": "/tryUsAuto-DL/static/js/main.5c98a38d.chunk.js",
+    "main.js.map": "/tryUsAuto-DL/static/js/main.5c98a38d.chunk.js.map",
+    "runtime-main.js": "/tryUsAuto-DL/static/js/runtime-main.7b45bef1.js",
+    "runtime-main.js.map": "/tryUsAuto-DL/static/js/runtime-main.7b45bef1.js.map",
+    "static/js/2.a78a3b2c.chunk.js": "/tryUsAuto-DL/static/js/2.a78a3b2c.chunk.js",
+    "static/js/2.a78a3b2c.chunk.js.map": "/tryUsAuto-DL/static/js/2.a78a3b2c.chunk.js.map",
+    "static/js/3.3f197983.chunk.js": "/tryUsAuto-DL/static/js/3.3f197983.chunk.js",
+    "static/js/3.3f197983.chunk.js.map": "/tryUsAuto-DL/static/js/3.3f197983.chunk.js.map",
+    "index.html": "/tryUsAuto-DL/index.html",
+    "static/css/main.28f34db8.chunk.css.map": "/tryUsAuto-DL/static/css/main.28f34db8.chunk.css.map",
+    "static/js/2.a78a3b2c.chunk.js.LICENSE.txt": "/tryUsAuto-DL/static/js/2.a78a3b2c.chunk.js.LICENSE.txt",
+    "static/media/codeSnip.bce17447.PNG": "/tryUsAuto-DL/static/media/codeSnip.bce17447.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b45bef1.js",
+    "static/js/2.a78a3b2c.chunk.js",
+    "static/css/main.28f34db8.chunk.css",
+    "static/js/main.5c98a38d.chunk.js"
+  ]
+}
