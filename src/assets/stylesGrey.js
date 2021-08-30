@@ -326,10 +326,10 @@ export const useStyles = makeStyles((theme) => ({
     tryUsBtn:{
       marginLeft:"45%",
       marginBottom:"1%",
-      background:"#252934",
+      // background:"#252934",
       border:"1px solid black",
       fontWeight:"bold",
-      color:"#FFF"
+      color:"white"
 
     },
     codeSnip:{
