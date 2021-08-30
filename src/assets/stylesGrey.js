@@ -119,7 +119,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   body3: {
     width: "95%",
-    backgroundColor: "#F1F3F7",
+    backgroundColor: "#252934",
     padding: "10px",
     borderRadius: "7px",
     display: "flex",
@@ -127,7 +127,7 @@ export const useStyles = makeStyles((theme) => ({
     minHeight: "500px",
     maxHeight: "480px",
     overflowY: "auto",
-    color:"#000",
+    color:"#FFF",
     border:"1px solid black"
   },
   item: {
@@ -288,7 +288,7 @@ export const useStyles = makeStyles((theme) => ({
 
     delete: {
         width:"65%",
-        backgroundColor: "#F1F3F7",
+        backgroundColor: "#252934",
         padding: "10px",
         borderRadius: "7px",
         minHeight: "80px",
@@ -297,7 +297,7 @@ export const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         marginLeft:"20%",
         marginRight:"20%",
-        color:"#000",
+        color:"#FFF",
         border:"1px solid black"
 
     },
@@ -326,7 +326,7 @@ export const useStyles = makeStyles((theme) => ({
     tryUsBtn:{
       marginLeft:"45%",
       marginBottom:"1%",
-      background:"#5FCB8D",
+      background:"#252934",
       border:"1px solid black",
       fontWeight:"bold",
       color:"#FFF"
@@ -334,7 +334,9 @@ export const useStyles = makeStyles((theme) => ({
     },
     codeSnip:{
       width:"100%",
+      
       overflowX:"hidden",
-      filter:"blur(5px)"
+      filter:"blur(4px)",
+      overflowY:"auto",
     }
 }));

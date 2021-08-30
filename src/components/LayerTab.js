@@ -2,9 +2,9 @@ import { Fragment ,useState} from "react";
 import { Grid, TextField, FormControl, Select } from "@material-ui/core";
 import { useTheme } from "@material-ui/core/styles";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-// import { useStyles } from "../assets/stylesWhite";
-// import { useStyles } from "../assets/stylesGrey";
-import { useStyles } from "../assets/stylesBlack";
+
+import { useStyles } from "../assets/stylesGrey";
+
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import FileCopySharpIcon from "@material-ui/icons/FileCopySharp";
 import Button from "@material-ui/core/Button";
@@ -42,7 +42,7 @@ const LayerTab = ({
         <Grid container>
           <Grid item lg={3} md={3} sm={4} xs={4} className={classes.grid1}>
             <div key="source" className={classes.column1}>
-              <span style={{marginLeft:"50%",fontSize:"120%",color:"#FFF"}}>Layers</span>
+              <span style={{marginLeft:"50%",fontSize:"120%",color:"#000"}}>Layers</span>
 
               <Droppable droppableId="source">
                 {(provided, snapshot) => {
@@ -80,7 +80,7 @@ const LayerTab = ({
 
                                   }
                                   {suggestDesc===index &&
-                                    <div style={{fontSize:"60%",marginTop:"1px",fontWeight:"100",color:"#a2a4a8",textAlign:"left"}}>
+                                    <div style={{fontSize:"60%",marginTop:"1px",fontWeight:"bold",color:"#000",textAlign:"center"}}>
                                       Tip : Valid layer to be added.
                                     </div>
                                   }
@@ -101,7 +101,7 @@ const LayerTab = ({
 
           <Grid item lg={5} md={5} sm={4} xs={4} className={classes.grid2}>
             <div key="target" className={classes.column2}>
-              <span style={{marginLeft:"25%",fontSize:"120%",color:"#FFF"}} >Model</span>
+              <span style={{marginLeft:"25%",fontSize:"120%",color:"#000"}} >Model</span>
 
               <Droppable droppableId="target">
                 {(provided, snapshot) => {
@@ -148,11 +148,9 @@ const LayerTab = ({
                                       
                                       onClick={() => handleCloneLayer(el)}
                                       //grey 
-                                      // style={{color: `${selected_layer===index?"#000" :"#FFF"}`}}
-                                      //white 
-                                      // style={{color:"#000"}}
-                                      //black
-                                      style={{color: `${selected_layer===index?"#FFF" :"#000"}`}}
+                                      style={{color:"#000"}}
+                                      
+                                      
                                       
                                       className={classes.cloneBtn}
                                     >
@@ -164,8 +162,10 @@ const LayerTab = ({
                                         size="small"
                                         onClick={() => {
                                           setSelectedWarnLayer(index);
-                                          setTimeout(()=>setSelectedWarnLayer(""),30000)
+                                          setTimeout(()=>setSelectedWarnLayer(""),3000)
                                           }}
+
+                                          
                                           
                                         className={classes.errBtn}
                                       >
@@ -174,7 +174,7 @@ const LayerTab = ({
                                     }
                                     {
                                       selectedWarnLayer===index &&
-                                  <div style={{fontSize:"60%",marginTop:"1px",fontWeight:"bold",color:"#D00000",textAlign:"left"}}>
+                                  <div style={{fontSize:"60%",marginTop:"1px",marginLeft:"4%",fontWeight:"bold",color:"#D00000",}}>
                                     Warning : highlited layer is wrongly placed 
                                   </div>
                                   }
@@ -197,7 +197,7 @@ const LayerTab = ({
 
           <Grid item lg={4} md={4} sm={4} xs={4} className={classes.grid3}>
             <div className={classes.column3}>
-              <span style={{fontSize:"120%",color:"#FFF"}}>
+              <span style={{fontSize:"120%",color:"#000"}}>
                 {Object.keys(selected_layer_type).length !== 0
                   ? "name" in components[selected_layer]
                     ? components[selected_layer].name
@@ -342,7 +342,7 @@ const LayerTab = ({
             </Droppable>
           </div>
           <Button
-            style={{background:"#5FCB8D"}}
+            style={{background:"#252934"}}
               variant="contained"
 
               onClick={()=>{
@@ -351,7 +351,7 @@ const LayerTab = ({
             className={classes.tryUsBtn}
               
             >
-              For more....
+              Generate Code
             </Button>
             
 
