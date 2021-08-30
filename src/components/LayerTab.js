@@ -344,6 +344,7 @@ const LayerTab = ({
           <Button
             style={{background:"#252934"}}
               variant="contained"
+              color="primary"
 
               onClick={()=>{
               setOpenModal(true)
