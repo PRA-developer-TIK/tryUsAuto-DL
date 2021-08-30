@@ -147,12 +147,13 @@ const LayerTab = ({
                                       size="small"
                                       
                                       onClick={() => handleCloneLayer(el)}
-                                      //grey 
-                                      style={{color:"#000"}}
+                                      
+                                    
+                                      style={{color:"#000",float:"right",position:"relative",height:"20%",width:"20%",maxWidth: "10%",minWidth: "10%",maxHeight:"10%",minHeight:"10%",}}
                                       
                                       
                                       
-                                      className={classes.cloneBtn}
+                                      // className={classes.cloneBtn}
                                     >
                                       <FileCopySharpIcon fontSize="small" />
                                     </Button>
@@ -165,9 +166,11 @@ const LayerTab = ({
                                           setTimeout(()=>setSelectedWarnLayer(""),3000)
                                           }}
 
+                                          style={{color:"#D00000",float:"right",position:"relative",height:"20%",width:"20%",maxWidth: "10%",minWidth: "10%",maxHeight:"10%",minHeight:"10%",}}
+
                                           
                                           
-                                        className={classes.errBtn}
+                                        // className={classes.errBtn}
                                       >
                                         <WarningIcon  fontSize="small" />
                                       </Button>
