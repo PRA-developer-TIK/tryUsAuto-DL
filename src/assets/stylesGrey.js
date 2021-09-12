@@ -58,7 +58,9 @@ export const useStyles = makeStyles((theme) => ({
     // backgroundColor:"#c5e4ed",margin:"2% 2%",
     // background: "linear-gradient(90deg, rgba(77,82,82,1) 16%, rgba(6,6,6,1) 50%, rgba(77,82,82,1) 72%, rgba(6,6,6,1) 97%)",
     background: "#F1F3F7",
-    margin:"1%"
+    maxWidth:"80%",
+    marginLeft:"10%",
+    marginTop:"1%",
   },
   App: {
     marginLeft: "10%",
@@ -291,7 +293,8 @@ export const useStyles = makeStyles((theme) => ({
         backgroundColor: "#252934",
         padding: "10px",
         borderRadius: "7px",
-        minHeight: "80px",
+        minHeight: "60px",
+        maxHeight:"80px",
         minWeight: "60px",
         margin: "10px",
         textAlign: "center",
